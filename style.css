@@ -1,0 +1,201 @@
+/* VARIÁVEIS DO PROJETO */
+
+:root {
+    --blue: #1a73e8;
+    --text: #202124;
+    --secondary-text: #5f6368;
+    --border: #dadce0;
+    --background: #ffffff;
+}
+
+/* CONFIGURAÇÕES GERAIS */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    min-height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--text);
+    background: var(--background);
+}
+
+body {
+    min-height: 100vh;
+}
+
+/* CARTÃO DE LOGIN */
+
+.login-page {
+    min-height: 100vh;
+    padding: 24px 20px;
+}
+
+.login-card {
+    width: 100%;
+    max-width: 450px;
+    margin: 40px auto 0;
+    padding: 34px 24px 30px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: #ffffff;
+}
+
+/* LOGO */
+
+.google-logo {
+    margin-bottom: 24px;
+    font-size: 34px;
+    font-weight: 600;
+    letter-spacing: -2px;
+}
+
+/* Cores das letras do logo */
+
+.google-logo span:nth-child(1),
+.google-logo span:nth-child(4) {
+    color: #4285f4;
+}
+
+.google-logo span:nth-child(2),
+.google-logo span:nth-child(6) {
+    color: #ea4335;
+}
+
+.google-logo span:nth-child(3) {
+    color: #fbbc05;
+}
+
+.google-logo span:nth-child(5) {
+    color: #34a853;
+}
+
+/* TÍTULO E SUBTÍTULO */
+
+h1 {
+    margin: 0;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.subtitle {
+    margin: 10px 0 30px;
+    font-size: 16px;
+    color: var(--secondary-text);
+}
+
+/* FORMULÁRIO */
+
+.field {
+    margin-bottom: 8px;
+}
+
+.field label {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--blue);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.field input {
+    width: 100%;
+    min-height: 54px;
+    padding: 14px 13px;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    outline: none;
+    font-size: 16px;
+    color: var(--text);
+    background: #ffffff;
+}
+
+.field input:focus {
+    border: 2px solid var(--blue);
+    padding: 13px 12px;
+}
+
+/* LINKS */
+
+.link {
+    color: var(--blue);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/* TEXTO AUXILIAR */
+
+.guest-text {
+    margin: 28px 0 30px;
+    color: var(--secondary-text);
+    font-size: 14px;
+    line-height: 1.55;
+}
+
+.guest-text .link {
+    margin-left: 3px;
+}
+
+/* AÇÕES */
+
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+button {
+    border: 0;
+    border-radius: 4px;
+    padding: 11px 24px;
+    min-width: 88px;
+    background: var(--blue);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1557b0;
+}
+
+/* RODAPÉ */
+
+.page-footer {
+    width: 100%;
+    max-width: 450px;
+    margin: 25px auto 0;
+    color: var(--secondary-text);
+    font-size: 12px;
+    text-align: center;
+}
+
+.page-footer p {
+    margin: 0 0 12px;
+}
+
+.page-footer nav {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+}
+
+.page-footer a {
+    color: var(--secondary-text);
+    text-decoration: none;
+}
+
+.page-footer a:hover {
+    text-decoration: underline;
+}
