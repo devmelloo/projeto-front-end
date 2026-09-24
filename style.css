@@ -37,8 +37,8 @@ body {
 .login-card {
     width: 100%;
     max-width: 450px;
-    margin: 40px auto 0;
-    padding: 34px 24px 30px;
+    margin: 48px auto 0;
+    padding: 40px 40px 36px;
     border: 1px solid var(--border);
     border-radius: 8px;
     background: #ffffff;
@@ -198,4 +198,21 @@ button:hover {
 
 .page-footer a:hover {
     text-decoration: underline;
+}
+
+/* RESPONSIVIDADE */
+
+@media (min-width: 600px) {
+    .login-page {
+        padding: 32px;
+    }
+
+    .login-card {
+        margin-top: 70px;
+        padding: 42px 40px 36px;
+    }
+
+    .page-footer {
+        margin-bottom: 10px;
+    }
 }
