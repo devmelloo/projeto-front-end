@@ -11,6 +11,7 @@
 
 <body>
 
+
     <main class="login-page">
 
         <section class="login-card" aria-labelledby="login-title">
@@ -42,9 +43,13 @@
                         type="text"
                         id="email"
                         name="email"
-                        autocomplete="username"
-                        required
+                        autocomplete="off"
+                        aria-describedby="email-help"
                     >
+
+                    <small id="email-help">
+                        Informe seu e-mail ou telefone.
+                    </small>
 
                 </div>
 

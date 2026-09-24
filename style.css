@@ -119,6 +119,13 @@ h1 {
     padding: 13px 12px;
 }
 
+.field small {
+    display: block;
+    margin-top: 6px;
+    color: var(--secondary-text);
+    font-size: 12px;
+}
+
 /* LINKS */
 
 .link {
