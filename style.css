@@ -119,6 +119,10 @@ h1 {
     padding: 13px 12px;
 }
 
+.field input:focus-visible {
+    border: 2px solid var(--blue);
+}
+
 .field small {
     display: block;
     margin-top: 6px;
@@ -137,6 +141,12 @@ h1 {
 
 .link:hover {
     text-decoration: underline;
+}
+
+.link:focus-visible,
+button:focus-visible {
+    outline: 2px solid var(--blue);
+    outline-offset: 2px;
 }
 
 /* TEXTO AUXILIAR */
