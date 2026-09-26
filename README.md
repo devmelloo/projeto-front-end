@@ -63,3 +63,13 @@ O CSS foi desenvolvido inicialmente pensando em telas menores.
 Foi utilizado Flexbox para organizar elementos como as ações do formulário e os links do rodapé.
 
 Também foi criada uma media query utilizando `min-width` para realizar ajustes no layout em telas maiores.
+
+## Comparação com a referência
+
+Página original
+
+![Página original](images/referencia.jpg)
+
+Projeto desenvolvido
+
+![Projeto desenvolvido](images/projeto.png)
